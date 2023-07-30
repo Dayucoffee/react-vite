@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
+}
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  background-color: #1a1b21;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* INFO SECTION */
+.img-container {
+  margin: auto;
+  width: 100%;
+}
+.profile-photo {
+  width: 100%;
+  height: auto;
+}
+.name {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.profession {
+  color: #f3bf99;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+.contact-container {
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-logo {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo > img {
+  width: 100%;
+}
+
+.contact-container > p {
+  margin-left: 7px;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+/* ABOUT SECTION */
+.about-section,
+.interest-section {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.about-title,
+.interest-title {
+  font-size: 1rem;
+}
+.about-text,
+.interest-text {
+  margin-top: 3px;
+  font-size: 0.6rem;
+  text-align: justify;
+}
+
+/* FOOTER SECTION */
+.footer-section {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #23252c;
+}
+.footer-social {
+  width: 25px;
+}
